@@ -12,7 +12,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -71,7 +70,6 @@ body {
 .studio-link {
   text-decoration: none;
   color: #2e2f42;
-  padding: 24px 0;
 }
 .studio-link:focus {
   color: #404bbf;
@@ -85,21 +83,12 @@ body {
 .address-link {
   color: #434455;
   text-decoration: none;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  padding: 24px 0;
 }
 .address-link:hover {
   color: #404bbf;
 }
 .address-link:focus {
   color: #404bbf;
-}
-.address-tel {
-  color: #434455;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-  padding: 24px 0;
 }
 .tittle-strategy {
   font-weight: 500;
@@ -178,26 +167,6 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.nav-menu {
+.menu {
   list-style-type: none;
-  display: flex;
-  gap: 40px;
-  align-items: center;
-}
-.header-border {
-  border-bottom: 1px solid #e7e9fc;
-}
-.header-container {
-  width: 100%;
-  height: 100%;
-  background: white;
-  border-bottom: 1px #e7e9fc solid;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-.logo-web {
-  margin-right: 75px;
 }
