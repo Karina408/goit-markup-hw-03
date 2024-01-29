@@ -169,7 +169,11 @@ body {
 }
 .menu {
   list-style-type: none;
+  display: flex;
 }
-.header-container {
-  flex-direction: row;
+.container {
+  display: inline;
+}
+.contacts-link {
+  display: inline;
 }
