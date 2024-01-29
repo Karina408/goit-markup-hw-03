@@ -12,6 +12,7 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-right: 76px;
 }
 .logo-studio {
   color: #2e2f42;
@@ -70,6 +71,7 @@ body {
 .studio-link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
 }
 .studio-link:focus {
   color: #404bbf;
@@ -167,8 +169,10 @@ body {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
-.menu {
+.nav-menu {
   list-style-type: none;
+  display: flex;
+  gap: 40px;
 }
 .header-bottom {
   border-bottom: 1px solid #e7e9fc;
