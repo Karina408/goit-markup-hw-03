@@ -85,12 +85,21 @@ body {
 .address-link {
   color: #434455;
   text-decoration: none;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  padding: 24px 0;
 }
 .address-link:hover {
   color: #404bbf;
 }
 .address-link:focus {
   color: #404bbf;
+}
+.address-tel {
+  color: #434455;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  padding: 24px 0;
 }
 .tittle-strategy {
   font-weight: 500;
