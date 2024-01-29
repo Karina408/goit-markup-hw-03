@@ -173,8 +173,9 @@ body {
   list-style-type: none;
   display: flex;
   gap: 40px;
+  align-items: center;
 }
-.header-bottom {
+.header-border {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
@@ -182,6 +183,11 @@ body {
   height: 100%;
   background: white;
   border-bottom: 1px #e7e9fc solid;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .logo-web {
   margin-right: 76px;
