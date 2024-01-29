@@ -172,8 +172,11 @@ body {
   display: flex;
 }
 .container {
-  display: inline;
+  display: flexbox;
 }
 .contacts-link {
+  display: flexbox;
+}
+.header-navigation-inline {
   display: inline;
 }
