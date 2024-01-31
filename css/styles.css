@@ -44,6 +44,7 @@ body {
   letter-spacing: 1.12px;
   text-align: center;
   max-width: 496px;
+  margin: 0 auto;
 }
 .tittle-background {
   background-color: #2e2f42;
@@ -57,6 +58,7 @@ body {
   background-color: #4d5ae5;
   border-radius: 4px;
   cursor: pointer;
+  margin: 0 auto;
 }
 .button-text {
   background-color: #4d5ae5;
@@ -103,6 +105,7 @@ body {
 .portfolio-background {
   background-color: #f4f4fd;
 }
+
 .address-link {
   color: #434455;
   text-decoration: none;
@@ -231,8 +234,7 @@ img {
   display: block;
 }
 .visually-hidden {
-  position: fixed;
-  transform: scale (0);
+  display: none;
 }
 
 .menu-second-section {
@@ -240,8 +242,8 @@ img {
   gap: 24px;
 }
 .item-list-second-section {
-flex-basis: calc ((100% - 72px) / 4))
+  flex-basis: calc ((100% - 72px) / 4);
 }
-ul{
+ul {
   list-style-type: none;
 }
