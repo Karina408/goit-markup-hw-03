@@ -240,5 +240,8 @@ img {
   gap: 24px;
 }
 .item-list-second-section {
-  width: calc ((100% - 72px) / 4);
+flex-basis: calc ((100% - 72px) / 4))
+}
+ul{
+  list-style-type: none;
 }
