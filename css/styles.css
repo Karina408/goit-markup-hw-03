@@ -277,7 +277,7 @@ ul {
   row-gap: 48px;
 }
 .photo-portfolio {
-  width: calc((100% - 48px) / 3);
+  width: calc((100%-48px) / 3);
 }
 .name-app {
   padding: 32px 16px;
@@ -286,4 +286,8 @@ ul {
 }
 .conteiner {
   margin-bottom: 72px;
+}
+.portfolio-backgraund {
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
