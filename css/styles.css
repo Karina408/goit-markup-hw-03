@@ -230,7 +230,12 @@ body {
 img {
   display: block;
 }
-.visually-hidden .menu-second-section {
+.visually-hidden {
+  position: fixed;
+  transform: scale (0);
+}
+
+.menu-second-section {
   display: flex;
   gap: 24px;
 }
