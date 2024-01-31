@@ -12,6 +12,11 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-left: 156px;
+  margin-top: 0;
+  margin-bottom: 25.5px;
+  padding: 21px;
+  align-items: center;
 }
 .logo-studio {
   color: #2e2f42;
@@ -66,10 +71,14 @@ body {
   line-height: 24px;
   letter-spacing: 0.32px;
   word-wrap: break-word;
+  display: flex;
+  align-items: center;
 }
 .studio-link {
   text-decoration: none;
   color: #2e2f42;
+  padding: 24px 0;
+  display: block;
 }
 .studio-link:focus {
   color: #404bbf;
@@ -169,15 +178,37 @@ body {
 }
 .menu {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .menu {
   list-style-type: none;
   display: flex;
 }
-
+.header {
+  width: 1440px;
+  height: 72px;
+  background: white;
+  border-bottom: 1px #e7e9fc solid;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.menu-list {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+.menu-address {
+  display: flex;
+  margin-right: 156px;
+  gap: 40px;
+  list-style-type: none;
 }
