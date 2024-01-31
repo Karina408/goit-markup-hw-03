@@ -230,13 +230,10 @@ body {
 img {
   display: block;
 }
-.none-tittle {
-  visually: hidden;
-}
-.menu-second-section {
+.visually-hidden .menu-second-section {
   display: flex;
   gap: 24px;
 }
 .item-list-second-section {
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
 }
