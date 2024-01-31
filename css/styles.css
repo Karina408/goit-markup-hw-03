@@ -104,7 +104,7 @@ body {
   padding: 120px 0;
 }
 
-.portfolio-background {
+.portfolio-backgraund {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
@@ -284,6 +284,6 @@ ul {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.portfolio-conteiner {
+.conteiner {
   margin-bottom: 72px;
 }
