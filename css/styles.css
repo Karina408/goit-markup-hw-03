@@ -212,3 +212,6 @@ body {
   gap: 40px;
   list-style-type: none;
 }
+img {
+  display: block;
+}
