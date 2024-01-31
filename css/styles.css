@@ -208,7 +208,7 @@ body {
 }
 .menu-address {
   display: flex;
-  margin-right: 156px;
+  flex: end;
   gap: 40px;
   list-style-type: none;
 }
