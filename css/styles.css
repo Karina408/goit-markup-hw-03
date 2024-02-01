@@ -12,10 +12,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  margin-left: 156px;
-  margin-top: 0;
-  margin-bottom: 25.5px;
-  padding: 21px;
   align-items: center;
   margin-right: 76px;
 }
@@ -27,14 +23,8 @@ body {
   color: #404bbf;
 }
 .contacts-link {
-  color: #434455;
   font-style: normal;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
+  margin-left: auto;
 }
 .page-tittle {
   color: white;
@@ -45,6 +35,7 @@ body {
   text-align: center;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 .tittle-background {
   background-color: #2e2f42;
@@ -80,13 +71,6 @@ body {
   padding: 120px 0;
 }
 .nav-menu {
-  color: #2e2f42;
-  font-size: 16px;
-  font-family: Roboto;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
-  word-wrap: break-word;
   display: flex;
   align-items: center;
 }
@@ -95,6 +79,12 @@ body {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
+  font-size: 16px;
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
 }
 .studio-link:focus {
   color: #404bbf;
@@ -247,9 +237,7 @@ body {
 img {
   display: block;
 }
-.tittle-none {
-  visibility: hidden;
-}
+
 .menu-second-section {
   display: flex;
   gap: 24px;
@@ -259,6 +247,8 @@ img {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 .name-human {
   padding: 32px 0;
@@ -276,8 +266,8 @@ ul {
   column-gap: 24px;
   row-gap: 48px;
 }
-.photo-portfolio {
-  width: calc((100%-48px) / 3);
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
 }
 .name-app {
   padding: 32px 16px;
@@ -290,4 +280,22 @@ ul {
 .portfolio-backgraund {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+p {
+  margin: 0;
 }
